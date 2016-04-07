@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<%= link_to($1, $2, class: "btn btn-${3:default}") %>
+]]></content>
+  <tabTrigger>dbtn</tabTrigger>
+  <scope>text.html.ruby</scope>
+  <description>Lazy Bootstrap default button</description>
+</snippet>

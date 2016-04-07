@@ -25,6 +25,11 @@ Checkout the source code into Sublime Text's packages directory. The location is
 ##Snippets and Bindings
 
 
+### Render bootstrap default button
+
+```erb
+<%= link_to(, , class: "btn btn-default") %>
+```
 
 
 
