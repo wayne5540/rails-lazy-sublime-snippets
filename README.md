@@ -31,6 +31,11 @@ Checkout the source code into Sublime Text's packages directory. The location is
 <%= link_to(, , class: "btn btn-default") %>
 ```
 
+### Render rails partial
+
+```erb
+<%= render partial: "", locals: { thing: @thing } %>
+```
 
 
 ##Resolve conflicting tab trigger

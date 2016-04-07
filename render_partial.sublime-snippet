@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<%= render partial: "$1", locals: { ${2:thing}: @${3:thing} } %>
+]]></content>
+  <tabTrigger>partial</tabTrigger>
+  <scope>text.html.ruby</scope>
+  <description>Lazy render rails partial</description>
+</snippet>
